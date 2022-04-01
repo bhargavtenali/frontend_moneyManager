@@ -1,6 +1,7 @@
 .app-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -224,5 +225,17 @@
 @media screen and (min-width: 768px) {
   .table-header-cell {
     font-size: 16px;
+  }
+}
+.my-text {
+  font-size: 9px;
+  text-align: center;
+  color: #475569;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .my-text {
+    font-size: 13px;
+    text-align: left;
   }
 }
